@@ -33,7 +33,7 @@ Let's talk about data, consider writing the program x=1 and then later changing 
 
 Even though you may want to change the value of x, the compiler will respond with an error: "multiple declarations of x".  
 
-Haskell is a functional programming language, so how do functions work in Haskel? In Haskell functions only take an input and return a result, This is often summed up by saying that functions in Haskell no side-effects. Haskell is also said to have referential transparency because an expression can be replace it's value without changing the result. Simply put this means that if you call a function with the same parameter, x, it will always return the same result.
+Haskell is a functional programming language meaning that in Haskell functions only take an input and return a result. This is often summed up by saying that functions in Haskell have no side-effects. Haskell is also said to have referential transparency because an expression can be replace it's value without changing the result. Simply put this means that if you call a function with the same parameter, x, it will always return the same result. With this basic understanding of important aspects of Haskell the best way to understand a language is to start working in it.
 
 ## Getting Started Guide
 
