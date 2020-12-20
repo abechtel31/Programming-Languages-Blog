@@ -18,4 +18,4 @@ A helpful tool in case you want to step up your Haskell game is the IHaskell ext
 The majority of this weeks content will be found in the [Haskell Notebook](Examples.ipynb). Navigate to the lab file to continue!
 
 ## Going Forward
-Congratulations on making it through week 2, by now you should be comfortable with basic Haskell syntax, be able to convert programs from an imperative language like Python to Haskell, and have been exposed to more data types. To continue your learning journey go to [lab 3](Blog3.md) to have a deep dive all into recursion.
+Congratulations on making it through week 2, by now you should be comfortable with basic Haskell syntax, be able to convert programs from an imperative language like Python to Haskell, and have been exposed to more data types. To continue your learning journey go to [blog 3](Blog3.md) to have a deep dive all into recursion.
