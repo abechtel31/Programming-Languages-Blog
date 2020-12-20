@@ -1,4 +1,4 @@
-# Week 4 - Benchmarking
+# Benchmarking
 ###  Compare and contrast Haskell and Python
 
 * Introduction
@@ -15,4 +15,4 @@ Needs to be completed with appropriate benchmarking.
 
 
 ## Going Forward
-So you've made it through week 4, by now you should be capable in Haskell and have an understanding of the benefits of using Haskell as a purely functional programming language. Go to [lab 5](Blog5.md) to start lambda calculus.
+So you've made it through week 4, by now you should be capable in Haskell and have an understanding of the benefits of using Haskell as a purely functional programming language. Go to [blog 5](Blog5.md) to start lambda calculus.
