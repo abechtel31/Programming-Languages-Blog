@@ -2,7 +2,7 @@
 ###  Introduction to functional programming with Haskell
 
 * Introduction
-* Helpful links for learning 
+* Helpful links for learning
 * What is Haskell?
 * Getting started guide
 * Examples
@@ -10,7 +10,7 @@
 ## Introduction
 
 [Haskell](https://www.haskell.org/) is a purely functional programming language. If you're not sure what that means it's okay, that is what this week's blog is all about! Before we dive deeper into the syntax of the language there are two important differences between functional and imperative programming languages:
-1. Functions in functional programming languages are pure functions, meaning that they are strictly mathematical - they have an input and return a result but nothing else. 
+1. Functions in functional programming languages are pure functions, meaning that they are strictly mathematical - they have an input and return a result but nothing else.
 2. All data in Haskell is immutable, once data is assigned to a name it cannot change value.
 
 ## Helpful Links
@@ -22,7 +22,7 @@
 
 ## What is Haskell?
 
-As I said above, Haskell is a purely functional programming language (a lazy language) which I will elaborate on now. 
+As I said above, Haskell is a purely functional programming language (a lazy language) which I will elaborate on now.
 
 Let's talk about data, consider writing the program x=1 and then later changing your mind, in Haskell you can't set it to a new number later. Data in Haskell is immutable!
 
@@ -36,11 +36,11 @@ To test the examples in this blog and to examples and to become more comfortable
 
 Before writing any code take some time exploring the interactive Haskell shell by typing ghci. Then, enter various commands as you would in a python shell. Ex: 2+2, n=1, n+2.
 
-Just like in any other language Haskell has types, lists, strings, booleans, chars, floats, etc., and it's important to know what type of data you are going to be working with before you jump into writing a program to plan accordingly. 
+Just like in any other language Haskell has types, lists, strings, booleans, chars, floats, etc., and it's important to know what type of data you are going to be working with before you jump into writing a program to plan accordingly.
 
 ## Examples
 
-To make things easier in learning the syntax and functionality of this new language, here are a few example programs and functions in Haskell. 
+To make things easier in learning the syntax and functionality of this new language, here are a few example programs and functions in Haskell.
 
 
 **Addition:**
@@ -61,7 +61,7 @@ To make things easier in learning the syntax and functionality of this new langu
 
     area :: (Show a, Floating a) => a -> String
     area x = "The area of the circle is" ++ show(pi * x * x)
-    
+
 **How's the weather**
 
     weather :: (Num a) => a -> String
@@ -69,7 +69,7 @@ To make things easier in learning the syntax and functionality of this new langu
 	    | x <= 65 = "It's cold"
 	    | x <= 75 = "It's the perfect day"
 	    | otherwise = "You better take that jacket off"
-	    
+
 
 ## Going Forward
 If you have more questions than answers right now, it's okay! Don't get discouraged, there is still much more too learn and can be a big learning curve transitioning from learning imperative programming to functional programming. Great job on making it through blog 1. Now that you're familiar with Haskell go to the next [lab 2](Blog2.md) to compare and contrast some Haskell and Python code!
