@@ -30,7 +30,7 @@ Haskell is a functional programming language meaning that in Haskell functions o
 
 ## Getting Started Guide
 
-To test the examples in this blog and to examples and to become more comfortable in Haskell you can use this online [compiler](https://repl.it/languages/haskell) otherwise follow the instructions to download [Haskell](https://www.haskell.org/platform/). *
+To test the examples in this blog and to examples and to become more comfortable in Haskell you can use this online [compiler](https://repl.it/languages/haskell) otherwise follow the instructions to download [Haskell](https://www.haskell.org/platform/).
 
 *A helpful note for running haskell locally. To enter the Prelude session and run Haskell commands enter `ghci` in your terminal. To run a saved Haskell program use the `:load filename.hs` command in the ghci session. To run functions contained in the file simply type the function name with the appropriate arguments `plus 2 3`. To exit the ghci session use `control-d`.
 
@@ -72,4 +72,4 @@ To make things easier in learning the syntax and functionality of this new langu
 
 
 ## Going Forward
-If you have more questions than answers right now, it's okay! Don't get discouraged, there is still much more too learn and can be a big learning curve transitioning from learning imperative programming to functional programming. Great job on making it through blog 1. Now that you're familiar with Haskell go to the next [lab 2](Blog2.md) to compare and contrast some Haskell and Python code!
+If you have more questions than answers right now, that's normal! Don't get discouraged, there is still much more too learn and can be a big learning curve transitioning from learning imperative programming to functional programming. Great job on making it through blog 1. Now that you're familiar with Haskell go to the next [blog 2](Blog2.md) to compare and contrast some Haskell and Python code!
