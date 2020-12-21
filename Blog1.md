@@ -1,5 +1,4 @@
-# The Basics
-###  Introduction to functional programming with Haskell
+# Introduction to functional programming with Haskell
 
 * Introduction
 * Helpful links for learning
@@ -61,32 +60,35 @@ To make things easier in learning the syntax and functionality of this new langu
 
 
 **Addition:**
-
-	add :: Integer -> Integer -> Integer  
-	add x y = x + y
+```haskell
+    add :: Integer -> Integer -> Integer  
+    add x y = x + y
+```
 **Head:**
-
+```haskell
     head :: [a] -> a
     head [] = error "Empty List"
     head (x:xs) = x
+```
 **Length**
-
+```haskell
     length :: (Num b) => [a] -> b
     length [] = 0
     length (x:xs) = 1 + length xs
+```
 **Area Of Circle given Radius**
-
+```haskell
     area :: (Show a, Floating a) => a -> String
     area x = "The area of the circle is" ++ show(pi * x * x)
-
+```
 **How's the weather**
-
+```haskell
     weather :: (Num a) => a -> String
     weather x
 	    | x <= 65 = "It's cold"
 	    | x <= 75 = "It's the perfect day"
 	    | otherwise = "You better take that jacket off"
-
+```
 
 ## Going Forward
 If you have more questions than answers right now, it's okay! Don't get discouraged, there is still much more too learn and can be a big learning curve transitioning from learning imperative programming to functional programming. Great job on making it through blog 1. Now that you're familiar with Haskell go to the next [blog 2](Blog2.md) to compare and contrast some Haskell and Python code!
