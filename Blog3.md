@@ -40,7 +40,8 @@ In this blog I will be giving some hints and best practices to using the [Haskel
 ```
 In addition, line breaks in ghci commands can be separated by ;, like this:
 
-```*Main> let askname1 = do ; putStrLn "what is your name?" ; name <- getLine ; putStrLn $ "Hello " ++ name
+```
+*Main> let askname1 = do ; putStrLn "what is your name?" ; name <- getLine ; putStrLn $ "Hello " ++ name
 ```
 
 ## Going Forward
