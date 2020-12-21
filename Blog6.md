@@ -50,7 +50,7 @@ Trace makes it possible to trace execution steps of program; that is, which func
 
 This kind of debugging can help us find missing statements or errors much more quickly in our code. One quick thing to note before you go on your way is that trace is a pure function itself. You may not need to know this all but trace bridges between IO and pure Haskell: 
 
-    "The trace function should only be used for debugging, or for monitoring execution. The function is not referentially transparent: its type indicates that it is a pure function but it has the side effect of outputting the trace message.""
+"The trace function should only be used for debugging, or for monitoring execution. The function is not referentially transparent: its type indicates that it is a pure function but it has the side effect of outputting the trace message.""
 
 ## Going Forward
 In this blog we discussed debugging in Haskell, the next step is to  go to [blog 7](Blog7.md) and learn about Lamda calculus.
