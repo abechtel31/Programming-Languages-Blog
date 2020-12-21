@@ -42,7 +42,7 @@ The type signature is going to be quicksort :: (Ord a) => [a] -> [a]. The edge c
 ```
 Try testing this code in ghci!
 
-ghci> quicksort [44,5,2,1,9,23,7]
+ghci> quicksort [44,5,2,1,9,23,7]  
 [1,2,5,7,9,23,44]
 
 If we have, say [5,1,9,4,6,7,3] and we want to sort it, this algorithm will first take the head, which is 5 and then put it in the middle of two lists that are smaller and bigger than it. So at one point, you'll have [1,4,3] ++ [5] ++ [9,6,7]. We know that once the list is sorted completely, the number 5 will stay in the fourth place since there are 3 numbers lower than it and 3 numbers higher than it. Now, if we sort [1,4,3] and [9,6,7], we have a sorted list! We sort the two lists using the same function. 
