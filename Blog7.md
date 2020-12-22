@@ -11,7 +11,7 @@
 * Resources
 
 ## Introduction
-Lambda calculus was developed in the 30's by mathemetician Alonzo Church who also wrote a lot of work regarding Turing machines. Lambda calculus was desiged as a way to study computations with functions. 
+Lambda calculus was developed in the 30's by mathemetician Alonzo Church who also wrote a lot of work regarding Turing machines. Lambda calculus was designed as a way to study computations with functions. 
 
 ## What is Lamda Calculus?
 
@@ -73,10 +73,10 @@ The theorem is this:
     If E1 → E2, and E2 is normal form, then there is a normal-order reduction of E1 to E2. “Normal-order reduction will always produce a normal form, if one exists.”
 
 ## Going Forward
-In this blog we learned about Lamda Calculus and will continue in the following blog [blog 8](Blog8.md) .
+In this blog we learned about Lamda Calculus and will continue in the following [blog 8](Blog8.md) .
 
 ## Resources
-* https://personal.utdallas.edu/~gupta/courses/apl/lambda.pdf
-* https://en.wikipedia.org/wiki/Lambda_calculus
-* https://plato.stanford.edu/entries/lambda-calculus/
-* https://opendsa.cs.vt.edu/ODSA/Books/PL/html/Syntax.html (very helpful online supplemental resource) 
+* [A Tutorial Introduction to the Lambda Calculus](https://personal.utdallas.edu/~gupta/courses/apl/lambda.pdf)
+* [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus)
+* [The Lambda Calculus](https://plato.stanford.edu/entries/lambda-calculus/)
+* [Syntax of the Lambda Calculus](https://opendsa.cs.vt.edu/ODSA/Books/PL/html/Syntax.html) (very helpful online supplemental resource) 
