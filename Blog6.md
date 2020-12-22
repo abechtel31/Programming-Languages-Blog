@@ -53,7 +53,7 @@ This kind of debugging can help us find missing statements or errors much more q
 "The trace function should only be used for debugging, or for monitoring execution. The function is not referentially transparent: its type indicates that it is a pure function but it has the side effect of outputting the trace message.""
 
 ## Going Forward
-In this blog we discussed debugging in Haskell, the next step is to  go to [blog 7](Blog7.md) and learn about Lambda calculus.
+In this blog we discussed debugging in Haskell, the next step is to go to [blog 7](Blog7.md) and learn about Lambda calculus.
 
 ## Sources
 * https://en.wikibooks.org/wiki/Haskell/Debugging 
