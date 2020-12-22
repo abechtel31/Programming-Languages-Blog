@@ -42,6 +42,6 @@ We will also need an IO action that does nothing and simply returns a value, the
 In this blog we learned about very simple input and output without talking about the elephant in the room, monads. Monads share similar concepts for binding and returning but are not the same as the simple I/O we discussed in this blog. To continue learning go to [blog 9](Blog9.md).
 
 ## Resources
-* http://learnyouahaskell.com/input-and-output
-* https://www.seas.upenn.edu/~cis194/fall16/lectures/06-io-and-monads.html
-* http://book.realworldhaskell.org/read/io.html
+* [Input and Output](http://learnyouahaskell.com/input-and-output)
+* [IO and Monads](https://www.seas.upenn.edu/~cis194/fall16/lectures/06-io-and-monads.html)
+* [I/O](http://book.realworldhaskell.org/read/io.html)
