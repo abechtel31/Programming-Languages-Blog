@@ -1,7 +1,7 @@
-# Lamda Calculus
+# Lambda Calculus
 
 * Introduction
-* What is Lamda Calculus?
+* What is Lambda Calculus?
     * Syntax
     * Evaluation
     * Alpha reduction
@@ -12,7 +12,7 @@
 ## Introduction
 Lambda calculus was developed in the 30's by mathemetician Alonzo Church who also wrote a lot of work regarding Turing machines. Lambda calculus was designed as a way to study computations with functions. 
 
-## What is Lamda Calculus?
+## What is Lambda Calculus?
   
 ### Syntax
    * Lambda term - a valid lambda calculus expression
@@ -58,7 +58,7 @@ When we encounter multiple lambda's and terms, the inner x belongs to the inner 
     = 10
 
 ## Going Forward
-In this blog we learned about Lamda Calculus and will continue in the following [blog 8](Blog8.md) .
+In this blog we learned about Lambda Calculus and will continue in the following [blog 8](Blog8.md) .
 
 ## Resources
 * [A Tutorial Introduction to the Lambda Calculus](https://personal.utdallas.edu/~gupta/courses/apl/lambda.pdf)
