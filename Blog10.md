@@ -47,7 +47,7 @@ Maps from Data.Map can also be a functor because they hold values. In the case o
 With the Functor typeclass, we've seen how typeclasses can represent higher-order concepts. And with that congratulations! You made it through these 10 blogs regarding Haskell and functional programming. I hope you have learned some interesting new things along the way, were challanged, and ultimately are excited to continue expanding your understanding of functional programming even more.
 
 ## Resources
-* http://learnyouahaskell.com/making-our-own-types-and-typeclasses#the-functor-typeclass
-* https://wiki.haskell.org/Functor
-* http://www.haskellforall.com/2012/09/the-functor-design-pattern.html
-* https://en.wikibooks.org/wiki/Haskell/The_Functor_class
+* [Making our own types and typeclasses - The functor typeclass](http://learnyouahaskell.com/making-our-own-types-and-typeclasses#the-functor-typeclass)
+* [Functor](https://wiki.haskell.org/Functor)
+* [Functor Design Pattern](http://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
+* [The Functor class](https://en.wikibooks.org/wiki/Haskell/The_Functor_class)
