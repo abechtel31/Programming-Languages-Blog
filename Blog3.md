@@ -48,5 +48,5 @@ In addition, line breaks in ghci commands can be separated by ;, like this:
 Today we learned about simple navigation techniques of GHCi. Now it's time to go to [blog 4](Blog4.md) to have a deep dive all into recursion.
 
 ## Resources
-* https://en.wikibooks.org/wiki/Haskell/Using_GHCi_effectively
-* https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html
+* [Using GHCi effectively](https://en.wikibooks.org/wiki/Haskell/Using_GHCi_effectively)
+* [Haskell interactive enviornment](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.htm)
