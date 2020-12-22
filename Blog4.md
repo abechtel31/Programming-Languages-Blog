@@ -49,3 +49,7 @@ If we have, say [5,1,9,4,6,7,3] and we want to sort it, this algorithm will firs
 
 ## Going Forward
 An essential element of Haskell is recursion, of which you should now be an expert or at least compentant in. It truly is the most fundemental and in my opinion interesting mental shifts to coding in Haskell. Go to [blog 5](Blog5.md) to look at benchmarking haskell programs.
+
+## Resources
+* [Haskell Recursion](https://en.wikibooks.org/wiki/Haskell/Recursion)
+* [Hello Recursion](http://learnyouahaskell.com/recursion#hello-recursion)
