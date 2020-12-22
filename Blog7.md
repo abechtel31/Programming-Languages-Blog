@@ -17,7 +17,7 @@ Lambda calculus was developed in the 30's by mathemetician Alonzo Church who als
 ### Syntax
    * Lambda term - a valid lambda calculus expression
    * Variable - consider a variable x, which is itself a lambda term
-   * Abstraction - consider a lambda term e and variable x, we then say that λx.e is a lambda term called an abstraction. Abstraction is a definition of an anonymous function that takes x and returns e. λx.x^2+2 is an abstraction for the function f(x)=x^2+2. 
+   * Abstraction - consider a lambda term e and variable x, we then say that λx.e is a lambda term called an abstraction. Abstraction is a definition of an anonymous function that takes x and returns e. $λx.x^{2}+2$ is an abstraction for the function $f(x)=x^{2}+2$. 
    * Application - consider a lambda term e and lambda term f, we then say (ef) is a lambda term called an application. ef represents the application of a function e to an input f, that is, it represents the act of calling function e on input f to produce e(f).
 
 ### Evaluation
