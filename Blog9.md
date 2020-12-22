@@ -62,4 +62,4 @@ In this blog various simple excercises were presented, go to the final blog to c
 ## Resources
 * [Haskell Exercises](https://exercism.io/tracks/haskell)
 * [Helpful Homework Assignment upenn](https://www.seas.upenn.edu/~cis194/spring13/lectures.html)
-* [99 Questions])https://wiki.haskell.org/99_questions/31_to_40)
+* [99 Questions](https://wiki.haskell.org/99_questions/31_to_40)
