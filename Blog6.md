@@ -56,6 +56,6 @@ This kind of debugging can help us find missing statements or errors much more q
 In this blog we discussed debugging in Haskell, the next step is to go to [blog 7](Blog7.md) and learn about Lambda calculus.
 
 ## Sources
-* https://en.wikibooks.org/wiki/Haskell/Debugging 
-* https://wiki.haskell.org/Debugging
-* https://hackage.haskell.org/package/base-4.14.1.0/docs/Debug-Trace.html
+* [Haskell Debugging](https://en.wikibooks.org/wiki/Haskell/Debugging)
+* [Debugging](https://wiki.haskell.org/Debugging)
+* [Debug Trace](https://hackage.haskell.org/package/base-4.14.1.0/docs/Debug-Trace.html)
