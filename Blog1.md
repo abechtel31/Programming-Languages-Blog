@@ -97,7 +97,7 @@ If you have more questions than answers right now, it's okay! Don't get discoura
 ### Beginning Haskell Tutorials  
 * [Meta Tutorial](https://wiki.haskell.org/Meta-tutorial)
 * [Learning Haskell](http://learn.hfm.io/)  
-* [Haskell](https://en.wikibooks.org/wiki/Haskell)
+* [Haskell Wikibooks](https://en.wikibooks.org/wiki/Haskell)
 * [School of Haskell](https://www.schoolofhaskell.com/)
 
 ### Online Compilers  
