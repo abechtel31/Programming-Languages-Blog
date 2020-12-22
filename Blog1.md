@@ -95,13 +95,13 @@ If you have more questions than answers right now, it's okay! Don't get discoura
 
 ## Resources    
 ### Beginning Haskell Tutorials  
-* https://wiki.haskell.org/Meta-tutorial  
-* http://learn.hfm.io/  
-* https://en.wikibooks.org/wiki/Haskell
-* https://www.schoolofhaskell.com/
+* [Meta Tutorial](https://wiki.haskell.org/Meta-tutorial)
+* [Learning Haskell](http://learn.hfm.io/)  
+* [Haskell](https://en.wikibooks.org/wiki/Haskell)
+* [School of Haskell](https://www.schoolofhaskell.com/)
 
 ### Online Compilers  
-* https://cocalc.com/app  
-* http://tryhaskell.org/  
-* https://repl.it/languages/haskel   
-* https://www.code.world/haskell  
+* [Co calc](https://cocalc.com/app)
+* [Try Haskell](http://tryhaskell.org/)
+* [Haskell Online Compiler](https://repl.it/languages/haskell)  
+* [Code World](https://www.code.world/haskell) 
