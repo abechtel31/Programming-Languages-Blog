@@ -91,11 +91,12 @@ There are many other ways to test and benchmark Haskell programs but in particul
 So you've made it through week 4, by now you should be capable in Haskell and have an understanding of the benefits of using Haskell as a purely functional programming language. This week we explored benchmarking Haskell using the criterion extension, now you can easily measure the performance of your Haskell code and produce easy to read charts in PDF, SVG, and CVS. Now go to [blog 6](Blog6.md) to learn about debugging.
 
 ## Resources
-* http://book.realworldhaskell.org/read/profiling-and-optimization.html
-* https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/profiling.html
-* http://www.fatvat.co.uk/2010/08/ants-and-haskell.html
+* [Profiling and optimization](http://book.realworldhaskell.org/read/profiling-and-optimization.html)
+* [Haskell profiling](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/profiling.html)
+* [Ants and Haskell](http://www.fatvat.co.uk/2010/08/ants-and-haskell.html)
 * [gnomon](https://github.com/paypal/gnomon)
-* http://www.serpentine.com/blog/2009/09/29/criterion-a-new-benchmarking-library-for-haskell/ 
-* http://hackage.haskell.org/package/criterion
-* https://hackage.haskell.org/package/criterion-1.5.9.0/docs/Criterion-Main.html
-* http://www.serpentine.com/criterion/tutorial.html
+* [Benchmarking Library for Haskell](http://www.serpentine.com/blog/2009/09/29/criterion-a-new-benchmarking-library-for-haskell/)
+* [Criterion package](http://hackage.haskell.org/package/criterion)
+* [Criterion Documentation](https://hackage.haskell.org/package/criterion-1.5.9.0/docs/Criterion-Main.html)
+* [Criterion Tutorial](http://www.serpentine.com/criterion/tutorial.html)
+* [Criterion](http://hackage.haskell.org/package/criterion)
