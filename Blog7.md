@@ -6,7 +6,6 @@
     * Evaluation
     * Alpha reduction
     * Beta reduction
-    * Church-Rosser Theorem
 * Going forward
 * Resources
 
@@ -14,20 +13,12 @@
 Lambda calculus was developed in the 30's by mathemetician Alonzo Church who also wrote a lot of work regarding Turing machines. Lambda calculus was designed as a way to study computations with functions. 
 
 ## What is Lamda Calculus?
-
-A function is created with the notation λx.E. This signifies a function where x is an argument and E is the body of the function.
-
-A function is applied by using the . character. A1.B1 means the function A1 applied to the argument B1.
-
+  
 ### Syntax
-
-There are three types of expressions in Lambda calculus: 
-    
-* E :: = x(variables)
-* E1 E2(function application)
-* λx.E(function creation)
-
-Where λx.E is called Lambda abstraction and E is known as λ-expressions.
+   * Lambda term - a valid lambda calculus expression
+   * Variable - consider a variable x, which is itself a lambda term
+   * Abstraction - consider a lambda term e and variable x, we then say that λx.e is a lambda term called an abstraction. Abstraction is a definition of an anonymous function that takes x and returns e. \lambda x.x^{2}+2 is an abstraction for the function f(x)=x^{2}+2. 
+   * Application - consider a lambda term e and lambda term f, we then say (ef) is a lambda term called an application. ef represents the application of a function e to an input f, that is, it represents the act of calling function e on input f to produce e(f).
 
 ### Evaluation
 Pure lambda calculus has no built-in functions. We can start by looking at the two equivalent statements written below.
@@ -43,7 +34,7 @@ We start by reducing (* 1 5) (* 9 2), the order of which reduce these two terms 
     = 23
     
 ### Alpha Reduction
-Alpha reduction is the simple form of reducing an expresion. For example if you are have two lambda expressions with the same variable name inside, you change one of them to a new variable name. (λx.xx)(λx.x) can be rewritten as (λx.xx)(λy.y) after reduction. The result is equivalent to what you start out with, just with different variable names. ##
+Alpha reduction is the simple form of reducing an expresion. For example if you are have two lambda expressions with the same variable name inside, you change one of them to a new variable name. (λx.xx)(λx.x) can be rewritten as (λx.xx)(λy.y) after reduction. The result is equivalent to what you start out with, although rewritten with different variable names.
 
 ### β-reduction Rule
 To handle simplifications of lambda's we introduce the β-reduction.
@@ -65,12 +56,6 @@ When we encounter multiple lambda's and terms, the inner x belongs to the inner 
     + (− 9 1) 2
     + 8 2 
     = 10
-    
-
-### Church-Rosser Theorem
-The theorem is this:
-    If E1 ↔ E2, then there exists an E such that E1 → E and E2 → E. “Reduction in any way can eventually produce the same result.”
-    If E1 → E2, and E2 is normal form, then there is a normal-order reduction of E1 to E2. “Normal-order reduction will always produce a normal form, if one exists.”
 
 ## Going Forward
 In this blog we learned about Lamda Calculus and will continue in the following [blog 8](Blog8.md) .
