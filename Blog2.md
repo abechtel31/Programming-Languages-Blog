@@ -25,5 +25,5 @@ The majority of this weeks content will be found in the [Haskell Notebook](Haske
 Congratulations on making it through the blog 2, by now you should be comfortable with basic Haskell syntax, be able to convert programs from an imperative language like Python to Haskell, and have been exposed to more data types. To continue your learning journey go to [blog 3](Blog3.md) to learn some tricks with navigating GHCi.
 
 ## Resources
-* https://github.com/gibiansky/IHaskell/blob/master/README.md
-* https://www.youtube.com/watch?v=nYBW4ExtNvo
+* [IHaskell Github](https://github.com/gibiansky/IHaskell/blob/master/README.md)
+* [Yes, IHaskell Can Do That](https://www.youtube.com/watch?v=nYBW4ExtNvo)
